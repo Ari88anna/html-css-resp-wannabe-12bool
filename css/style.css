@@ -6,6 +6,12 @@
   text-align: center;
 }
 
+#lezioni,
+#steps,
+#why h1{
+    padding-top: 20px;
+}    
+
 img {
     height: 200px;
 }
@@ -42,17 +48,32 @@ img {
   padding: 30px
 }
 
-/* MODIFICHE */
+/* Media Query */
+
+/* XS media query */
 
 @media all and (max-width: 767px) {
     #lezioni {
         background-color: #B0E0E6;
     }
     #steps {
-        background-color::#66CDAA;
+        background-color:#66CDAA;
     }
     #why{
         background-color: #AFEEEE;
+    }
+}
+
+/* MD media query */
+@media all and (min-width: 768px) and (max-width: 991px) {
+    #lezioni {
+        background-color: #E0FFFF;
+    }
+    #steps {
+        background-color: #D8BFD8;
+    }
+    #why{
+        background-color: #FFE4E1;
     }
 }
 
