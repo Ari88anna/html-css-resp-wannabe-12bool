@@ -6,11 +6,9 @@
   text-align: center;
 }
 
-#lezioni,
-#steps,
-#why h1{
-    padding-top: 20px;
-}    
+h3{
+    padding:20px 0;
+}   
 
 img {
     height: 200px;
