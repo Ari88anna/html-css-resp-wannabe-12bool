@@ -42,10 +42,17 @@ img {
   padding: 30px
 }
 
-
-
-
-
-
 /* MODIFICHE */
+
+@media all and (max-width: 767px) {
+    #lezioni {
+        background-color: #B0E0E6;
+    }
+    #steps {
+        background-color::#66CDAA;
+    }
+    #why{
+        background-color: #AFEEEE;
+    }
+}
 
