@@ -10,6 +10,14 @@ img {
     height: 200px;
 }
 
+.container [class*="col-"] {
+    padding: 40px;
+}
+
+.container.grey {
+    background-color: #f9f9f9;
+  }
+
 /* BLOCCO LEZIONI */
 #lezioni .row img {
   /* per centrare orizzontalmente */
@@ -24,14 +32,17 @@ img {
 
 
 /* BLOCCO PERCHE */
+#why hr { 
+    margin-top: 40px;
+}
+
 #why img {
   background-color: #428bca;
   border-radius: 50%;
   padding: 30px
 }
-.container.grey {
-  background-color: #f9f9f9;
-}
+
+
 
 
 
